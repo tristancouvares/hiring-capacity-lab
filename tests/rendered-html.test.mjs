@@ -34,6 +34,9 @@ test("server-renders the public portfolio experience", async () => {
   assert.match(html, /100% synthetic data/);
   assert.match(html, /Scenario Lab/);
   assert.match(html, /No employer information or production records are used/);
+  assert.match(html, /Built by.*Tristan Couvares/);
+  assert.match(html, /href="https:\/\/tristancouvares\.com\/" rel="author"/);
+  assert.match(html, /href="https:\/\/github\.com\/tristancouvares\/hiring-capacity-lab"/);
   assert.doesNotMatch(html, /react-loading-skeleton/i);
 });
 

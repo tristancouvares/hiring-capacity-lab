@@ -808,6 +808,23 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+.footer-attribution {
+  display: block;
+  margin-top: 0.35rem;
+}
+
+.footer-attribution a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+.footer-attribution a:hover,
+.footer-attribution a:focus-visible {
+  color: var(--text);
+}
+
 .footer-controls {
   display: flex;
   align-items: center;

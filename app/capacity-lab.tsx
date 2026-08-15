@@ -470,6 +470,10 @@ export function CapacityLab() {
       <footer className="app-footer">
         <p>
           Public portfolio demonstration · No employer information or production records are used.
+          <span className="footer-attribution">
+            Built by <a href="https://tristancouvares.com/" rel="author">Tristan Couvares</a> ·{" "}
+            <a href="https://github.com/tristancouvares/hiring-capacity-lab">Source</a>
+          </span>
         </p>
         <div className="footer-controls">
           <button
